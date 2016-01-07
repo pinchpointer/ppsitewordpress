@@ -1,0 +1,307 @@
+/*
+Theme Name: GamesZone Child
+Theme URI: http://themefuse.com/demo/wordpress/gameszone/
+Description: Child theme for the GamesZone theme. Child themes are the recommended way of making modifications to a theme. <a href="http://codex.wordpress.org/Child_Themes">Reade More</a>
+Author: ThemeFuse
+Tags:translation-ready
+Author URI: http://themefuse.com
+Template: gameszone-parent
+*/
+@import url("../gameszone-parent/style.css");
+
+@font-face {
+	font-family: logo-font;
+	src: url('./fonts/PTN77F.ttf');
+}
+
+.header-main {
+	padding-top: 10px;
+}
+
+.header-logo .site-title span {
+	font-family: logo-font;
+	font-size: 52px;
+	font-weight: bold;
+	line-height: 75px;
+	text-transform: none;
+	color: black;
+	vertical-align: bottom;
+}
+
+.video-slider-tabs li.active .rating {
+	background: #efb505;
+}
+
+.header-logo .site-title {
+	margin-bottom: 0;
+}
+
+.main-navigation ul>li.parent.hover>a {
+	border-radius: 3px 3px 0 0;
+	color: #000;
+}
+
+.btn-main {
+	color: #000;
+	background-color: #ffcc05;
+	border-color: #ebbb00;
+	border: none;
+}
+
+.btn-main:hover, .btn-main:focus, .btn-main:active, .btn-main.active,
+	.open .dropdown-toggle.btn-main {
+	color: #000;
+	background-color: #efb505;
+	border-color: #ad8a00;
+}
+
+.btn-primary {
+	color: #000;
+	background-color: #ffcc05;
+	border-color: #ebbb00;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active,
+	.btn-primary.active, .open .dropdown-toggle.btn-primary {
+	color: #000;
+	background-color: #efb505;
+	border-color: #ad8a00;
+}
+
+.main-navigation ul>li:hover>a, .main-navigation ul>li.current-menu-item>a,
+	.main-navigation ul>li.current-menu-ancestor>a {
+	color: #000;
+}
+
+.main-navigation ul>li ul li:hover>a {
+	color: #000;
+}
+
+.video-slider-tabs li.active .video-title {
+	color: #000;
+}
+
+.post .entry-header .entry-meta a:hover, .post .entry-header .entry-meta a:focus
+	{
+	color: #efb505;
+}
+
+.rating {
+	color: #000;
+}
+
+.play-links img {
+	width: 30%;
+	padding: 5px 1% 0;
+	min-width: 115px;
+}
+
+.widget .widget-title {
+	font-family: logo-font;
+	font-weight: bold;
+}
+
+.main-row-bg-2 .widget_text .widget-title {
+	text-transform: none;
+}
+
+.slider-full .slide-item .slide-content {
+	vertical-align: bottom;
+	margin-bottom: 10px;
+}
+
+.rating {
+	display: none;
+}
+
+.fullwidth-image .layer-center, .slider-full . slide-item .layer-center
+	{
+	background: none;
+}
+
+.header-search-form {
+	width: 30%;
+	position: absolute;
+	right: 0px;
+}
+
+@media ( max-width : 767px) {
+	.slider-full .slide-item .slide-content {
+		width: 85%;
+		margin-bottom: 30px;
+	}
+	.play-links img {
+		padding: 2px 1% 0;
+	}
+	.header-search-form {
+		width: 50%;
+		position: absolute;
+		right: 0px;
+	}
+	
+}
+
+.header-buttons-mobile {
+	display: none;
+}
+
+
+.postlist-simple .post .author a{
+	color: #f25d3c;
+}
+.game-descr p, .entry-content p, .entry-content {
+	text-align: justify;
+}
+
+.footer-socials .social-icons-games a {
+	width: 50px;
+	height: 50px;
+}
+
+.footer-socials .social-icons-games a i {
+	font-size: 28px;
+	line-height: 45px;
+}
+
+.fullwidth-image img {
+	display: inline-block;
+}
+
+.header-search {
+	width: 100%;
+	display: block;
+	position: absolute;
+	top: 60px;
+	z-index: 9999999;
+}
+
+.header-search-form .stext {
+	width: 80%;
+}
+
+.header-search .button-search {
+	width: 20%;
+}
+
+.button-search-hideshow {
+	background: transparent none repeat scroll 0 0;
+	border: medium none;
+	font-size: 17px;
+	color: #999999;
+	padding: 5px;
+	outline: none;
+}
+
+.button-search-hideshow:hover {
+	color: #fff;
+}
+
+.header-second {
+	display: table;
+	width: 100%;
+}
+
+.header-second>div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+
+.nav-main {
+	width: 635px;
+}
+
+.header-left-space {
+	background: url("../../uploads/2015/12/1px.png") repeat-x;
+	width: 50%;
+}
+
+@media ( max-width : 991px) {
+	.nav-main {
+		width: 500px;
+	}
+}
+@media ( max-width : 890px) {
+	.nav-main {
+		width: 100%;
+	}
+	
+}
+.textbox-style2 .textbox-thumbnail{
+	float:left;
+}
+.textbox-style2 .textbox-text {
+	font-size: 13px;
+	}
+.textbox .textbox-container{
+
+width:255px;
+ margin:auto;
+
+}
+.header-right-space {
+	width: 50%;
+}
+
+.header-buttons-container {
+	width: 100px;
+}
+.mean-container  {
+	
+	margin-top: 0px;
+}
+
+.header-second.mean-container .header-buttons {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    z-index: 1000000;
+}
+.header-second.mean-container > div {
+    display: block;
+}
+
+.header-search .stext {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  
+}
+
+.header-search .stext:focus {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.header-search .button-search {
+  background: rgba(0, 0, 0, 0.5);
+}
+html
+body {
+	min-width:335px;
+}
+
+.main-navigation ul {
+   font-weight: bold;
+}
+
+.main-navigation ul > li:hover > a,
+.main-navigation ul > li.current-menu-item > a,
+.main-navigation ul > li.current-menu-ancestor > a {
+	background: none;
+    color:#ffcc05;
+  
+}
+
+.header-bar-logo {
+	display: block;
+    width: 216px;
+
+}
+
+.tficon-search {
+	outline:none;
+}
+
+.main-top .carousel-small ul .slide-item .caption a {
+	text-align: center;
+	}
